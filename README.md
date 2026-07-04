@@ -31,7 +31,14 @@ This pipeline extracts high-frequency spatial-temporal observations across activ
 
 ---
 
+### 1. Khartoum Infrastructure Degradation Proxy (2021–2026)
+![Khartoum Proxy](Figure_1.png)
 
+### 2. The Spatial Inversion of Light: Conflict Capital vs. Safe Haven Hub
+![Spatial Inversion](Figure_2.png)
+
+### 3. Sensor Fusion Validation
+![Sensor Fusion](Figure_3.png)
 
 
 ## 📈 Advanced Statistical Modeling Report
