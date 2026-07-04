@@ -19,4 +19,8 @@ This test uses satellite observation grids to assess structural disruptions acro
    * **The Concept:** Displacement is associated with an increase in nighttime radiance in non-conflict hubs (Port Sudan), inversely mirroring the decline in the conflict zone, with growth decelerating over time as resource limitations emerge.
    * **The Reality:** Partially supported. The data clearly validates the inverse relationship: Port Sudan's light footprint escalates dramatically as Khartoum falls into darkness. However, current data does not show an asymptotic curve; rather, it reflects heavy volatility and oscillation. The resource saturation claim remains an **open question**.
 
-
+### 3. Ground-Truth Sensor Fusion Validation
+Looking at localized kinetic combat metrics from the **ACLED (Armed Conflict Location & Event Data)** data logs provides an objective validation framework for the satellite telemetry:
+* **Pre-War Baseline (2021 – Early 2023):** Nominal or baseline kinetic events match a highly stable, bright urban radiance signal.
+* **Tactical Disruption Outbreak (April 2023):** The highest historical spike in combat intensity perfectly intersects the exact month the satellite signal experiences its sharpest cliff-dive, proving artificial light decline is directly combat-driven.
+* **Sustained Attrition Envelope (2023 – 2025):** Continuous, dense conflict metrics explain why the capital's grid remained suppressed, demonstrating an active operational state that systematically blocked civilian infrastructure reconstruction.
