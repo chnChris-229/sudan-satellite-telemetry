@@ -4,14 +4,14 @@ This project uses VIIRS nighttime satellite radiance data, paired with ACLED con
 
 ---
 
-## 🔬 Core Methodology & Hypotheses
+## Core Methodology & Hypotheses
 
 This test uses satellite observation grids to assess structural disruptions across critical administrative zones within Sudan:
 
-### 📑 Research Question
+### Research Question
 *To what extent do satellite-derived nighttime patterns serve as an indicator of structural infrastructure decline and population displacement during active conflict in Sudan?*
 
-### 🧪 Hypothesis Status Matrix
+### Hypothesis  
 1. **Hypothesis 1: The "Blackout Vector" of Territorial Capture — 🟢 SUPPORTED**
    * **The Concept:** Territorial capture events produce an abrupt, statistically distinct drop in nighttime radiance, followed by a prolonged recovery period lasting more than 12 months.
    * **The Reality:** Highly supported. Time-series extraction demonstrates an abrupt dive in radiance matching the April 2023 outbreak line. Furthermore, radiance remains deeply suppressed below the pre-war baseline for nearly three years, confirming a prolonged grid failure extending well past a 12-month period.
@@ -25,7 +25,7 @@ Looking at localized kinetic combat metrics from the **ACLED (Armed Conflict Loc
 * **Tactical Disruption Outbreak (April 2023):** The highest historical spike in combat intensity perfectly intersects the exact month the satellite signal experiences its sharpest cliff-dive, proving artificial light decline is directly combat-driven.
 * **Sustained Attrition Envelope (2023 – 2025):** Continuous, dense conflict metrics explain why the capital's grid remained suppressed, demonstrating an active operational state that systematically blocked civilian infrastructure reconstruction.
 
-## 📊 Empirical Visualizations & Remote-Sensed Signal Analysis
+## Empirical Visualizations & Remote-Sensed Signal Analysis
 
 This pipeline extracts high-frequency spatial-temporal observations across active conflict zones and relative safe havens to visually isolate structural infrastructure breaks and civilian migration patterns.
 
@@ -41,16 +41,16 @@ This pipeline extracts high-frequency spatial-temporal observations across activ
 ![Sensor Fusion](Figure_3.png)
 
 
-## 📈 Advanced Statistical Modeling Report
+## Statistical Modeling Report
 
 To formally establish the relationship between kinetic ground combat intensity ($X$) and satellite-observed urban radiance ($Y$), the pipeline computes both synchronous and time-shifted coefficients:
 
-### ⏱️ Synchronous Correlation ($Lag = 0$)
+### Synchronous Correlation ($Lag = 0$)
 * **Pearson Correlation Coefficient ($r$):** `-0.6625`
 * **P-value (Statistical Significance):** `3.3287e-09` ($P < 0.001$)
 * **Meaning:** Confirms a significant, strong inverse relationship. As kinetic combat intensity scales up on the ground, metropolitan light signatures collapse.
 
-### 🔄 Time-Lagged Cross-Correlation (TLCC) Analysis
+### Time-Lagged Cross-Correlation (TLCC) 
 Testing historical monthly offsets reveals that the coupling between ground combat and satellite radiance is highly dynamic over time:
 
 | Lag (Months) | Pearson Correlation ($r$) | Operational Interpretation |
@@ -66,7 +66,7 @@ The mathematical relationship reaches maximum intensity at a **negative 2-month 
 
 ---
 
-## 💻 Tech Stack & Environment Architecture
+## Tech Stack & Environment Architecture
 
 * **Core Platform:** Python 3.11 managed via an isolated Miniconda Virtual Environment (`satellite_conflict`).
 * **Geospatial Processing Engine:** Google Earth Engine (`ee` API) interacting with the NOAA VIIRS Day/Night Band (DNB) Nighttime Lights Monthly Select Composites dataset.
