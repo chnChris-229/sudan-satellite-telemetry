@@ -31,10 +31,6 @@ This pipeline extracts high-frequency spatial-temporal observations across activ
 
 ---
 
-### 1. Khartoum Infrastructure Degradation Proxy (2021–2026)
-* [cite_start]**The Telemetry Array:** Extracted via the NOAA VIIRS Day/Night Band (DNB) sensor array.
-* [cite_start]**Hypothesis Evaluation (Hypothesis 1: Supported):** The time-series curve demonstrates a stark, near-vertical **structural shock** (instantaneous blackout vector) precisely at the April 2023 war outbreak milestone, rather than a gradual decline. 
-* [cite_start]**Long-Term Grid Suppressive Horizon:** Urban radiance remains deeply suppressed significantly below the pre-war baseline ($\sim20\text{–}28 \text{ nW}/\text{cm}^2/\text{sr}$) for nearly three full years, verifying a prolonged infrastructure recovery failure that extends well beyond a 12-month horizon.
 
 
 
