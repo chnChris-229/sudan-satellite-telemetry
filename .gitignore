@@ -1,0 +1,10 @@
+# Ignore data tracking spreadsheets
+*.csv
+
+# Ignore local environment files and caches
+__pycache__/
+.pytest_cache/
+.DS_Store
+
+# Ignore credentials or local configurations
+.config/
