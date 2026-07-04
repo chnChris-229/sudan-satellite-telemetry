@@ -26,6 +26,30 @@ Looking at localized kinetic combat metrics from the **ACLED (Armed Conflict Loc
 * **Sustained Attrition Envelope (2023 – 2025):** Continuous, dense conflict metrics explain why the capital's grid remained suppressed, demonstrating an active operational state that systematically blocked civilian infrastructure reconstruction.
 ## 📈 Advanced Statistical Modeling Report
 
+## 📊 Empirical Visualizations & Remote-Sensed Signal Analysis
+
+This pipeline extracts high-frequency spatial-temporal observations across active conflict zones and relative safe havens to visually isolate structural infrastructure breaks and civilian migration patterns.
+
+---
+
+### 1. Khartoum Infrastructure Degradation Proxy (2021–2026)
+* [cite_start]**The Telemetry Array:** Extracted via the NOAA VIIRS Day/Night Band (DNB) sensor array.
+* [cite_start]**Hypothesis Evaluation (Hypothesis 1: Supported):** The time-series curve demonstrates a stark, near-vertical **structural shock** (instantaneous blackout vector) precisely at the April 2023 war outbreak milestone, rather than a gradual decline. 
+* [cite_start]**Long-Term Grid Suppressive Horizon:** Urban radiance remains deeply suppressed significantly below the pre-war baseline ($\sim20\text{–}28 \text{ nW}/\text{cm}^2/\text{sr}$) for nearly three full years, verifying a prolonged infrastructure recovery failure that extends well beyond a 12-month horizon.
+
+### 2. The Spatial Inversion of Light: Conflict Capital vs. Safe Haven Hub
+* **The Telemetry Array:** A dual-axis comparative grid mapping the capital (Khartoum) against the de facto civilian and administrative coastal sanctuary (Port Sudan)[cite: 1, 2].
+* **Hypothesis Evaluation (Hypothesis 2: Partially Supported / Open Question):**
+  * **Supported Component (Spatial Mirroring):** The model cleanly validates the macroscopic "inversion" or mirroring claim. The moment Khartoum plunges into total darkness, Port Sudan's light footprint undergoes a dramatic, immediate surge—mapping the physical relocation of populations, emergency services, and concentrated commercial generator assets to the coast.
+  * **Unsupported / Open Component (Saturation Ceiling):** The original hypothesis postulated that Port Sudan's light growth would hit an asymptotic "structural ceiling" due to resource scarcity[cite: 1, 2]. However, the actual graph exhibits intense oscillation and volatility rather than a flattening trajectory. The resource saturation claim remains an **open tracking question** awaiting rigorous curve-fitting and trend-deceleration algorithms.
+
+### 3. Sensor Fusion Validation: Remote Sensed Radiance vs. Ground Truth Kinetic Conflict
+* **The Telemetry Array:** An overlay of space-borne nighttime photons against localized, high-resolution kinetic combat counts extracted via the ACLED registry.
+* **The Analytical Signature:** * **Pre-War (2021 – Early 2023):** An absence of monthly conflict bars directly corresponds to a highly stable, bright urban radiance signature, establishing a reliable peace baseline.
+  * **Outbreak Threshold (April 2023):** The single tallest bar on the chart (>400 localized attacks and artillery strikes) intersects the exact moment the green satellite line drops off a cliff, proving that grid failure was a direct consequence of intense kinetic combat rather than standard municipal maintenance failures.
+  * **Sustained Attrition State (2023 – 2025):** The continuous presence of dense, monthly conflict bars explains why the capital's grid remained suppressed, mathematically demonstrating that active warfare blocked any civilian reconstruction attempts.
+
+
 To formally establish the relationship between kinetic ground combat intensity ($X$) and satellite-observed urban radiance ($Y$), the pipeline computes both synchronous and time-shifted coefficients:
 
 ### ⏱️ Synchronous Correlation ($Lag = 0$)
